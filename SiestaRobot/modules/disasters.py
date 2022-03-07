@@ -3,7 +3,7 @@ import json
 import os
 from typing import Optional
 
-from KomiRobot import (
+from SiestaRobot import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,

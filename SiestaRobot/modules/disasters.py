@@ -13,13 +13,13 @@ from SiestaRobot import (
     WOLVES,
     dispatcher,
 )
-from KomiRobot.modules.helper_funcs.chat_status import (
+from SiestaRobot.modules.helper_funcs.chat_status import (
     dev_plus,
     sudo_plus,
     whitelist_plus,
 )
-from KomiRobot.modules.helper_funcs.extraction import extract_user
-from KomiRobot.modules.log_channel import gloggable
+from SiestaRobot.modules.helper_funcs.extraction import extract_user
+from SiestaRobot.modules.log_channel import gloggable
 from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler
 from telegram.utils.helpers import mention_html

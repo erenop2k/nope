@@ -448,9 +448,9 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>╔═━「 Current Shikimor Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b>╔═━「 Shikimori Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By [Light Yagami (夜神月)](https://t.me/itz_light_yagami) 」</b>"
+    result += "\n<b>╘═━「 By [Light Yagami](https://t.me/Itz_Light_Yagami) 」</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 

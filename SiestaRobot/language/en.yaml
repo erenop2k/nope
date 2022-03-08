@@ -82,21 +82,19 @@ group_settings_text: "Click here to get this chat's settings, as well as yours."
 group_settings_button: "Settings"
 
 # PM Button
-add_bot_to_group_button: "𝐀𝐝𝐝 𝐒𝐡𝐢𝐤𝐢𝐦𝐨𝐫𝐢 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩"
+add_bot_to_group_button: "ᴀᴅᴅ ꜱʜɪᴋɪᴍᴏʀɪ ᴛᴏ ɢʀᴏᴜᴘ"
 
 
-support_chat_link_button: "𝐒𝐮𝐩𝐩𝐨𝐫𝐭"
-updates_channel_link_button: "𝐔𝐩𝐝𝐚𝐭𝐞𝐬"
-notes_button: "𝐍𝐨𝐭𝐞𝐬"
-source_button: "𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞"
+support_chat_link_button: "ꜱᴜᴘᴘᴏʀᴛ"
+updates_channel_link_button: "ᴜᴘᴅᴀᴛᴇs"
+notes_button: "ɴᴏᴛᴇs"
+source_button: "sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ"
 
 
-help_button: "𝐇𝐞𝐥𝐩"
-back_button: "𝐁𝐚𝐜𝐤"
-about_button: "𝐀𝐛𝐨𝐮𝐭 𝐒𝐡𝐢𝐤𝐢𝐦𝐨𝐫𝐢 𝐌𝐢𝐜𝐜𝐡𝐨𝐧
-
-"
-inline_button: "𝐈𝐧𝐥𝐢𝐧𝐞"
+help_button: "ʜᴇʟᴘ"
+back_button: "ʙᴀᴄᴋ"
+about_button: "ᴀʙᴏᴜᴛ sʜɪᴋɪᴍᴏʀɪ ᴍɪᴄᴄʜᴏɴ"
+inline_button: "ɪɴʟɪɴᴇ"
 
 # MODULES
 admin_help: |

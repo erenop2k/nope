@@ -5,17 +5,17 @@ authors: "@saint_foire"
 
 # languages
 curr_chat_lang: "Hey. Your current language is {}, select the one you want from the buttons below :)"
-set_chat_lang: "Great, using {} Language it is from now on!"
+set_chat_lang: "Great, using {} Language it is from now on!"⏋
 
 # PM Text
 pm_start_text: |
   *Hey Darling, {} ❤️*
-  ✪ I'm Micchon Shikimori an anime-theme management robot [✨](https://telegra.ph/file/8bddb266c82258ff0a41b.mp4)
+  ✮ I'm Micchon Shikimori an anime-theme management robot [✨](https://telegra.ph/file/8bddb266c82258ff0a41b.mp4)
 
-  ______________________________
+  ╔══════════════════════════════╗
   × *Server Uptime :* `{}`
   × `{}` *users, across* `{}` *chats.*
-  ______________________________
+  ╚══════════════════════════════╝
 
   ✪ Hit /help to see my available commands.
    

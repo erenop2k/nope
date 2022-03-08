@@ -417,7 +417,7 @@ def siesta_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/@hikimoriXrobot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/shikimoriXrobot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -460,7 +460,7 @@ def siesta_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="https://t.me/JinWooXsupport"),
-                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/JinWooXsupport"),
+                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/ShikimoriXupdates"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
@@ -480,8 +480,8 @@ def siesta_about_callback(update, context):
                         InlineKeyboardButton(text="Light", url="https://github.com/Light-Sensei"),
                     ],
                     [
-                        InlineKeyboardButton(text="Paul Larsen", url="https://github.com/zerohisoka"),
-                        InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/Nchuuya"),
+                        InlineKeyboardButton(text="Itachi", url="https://github.com/Yoriichi-Tsugikuni"),
+                        InlineKeyboardButton(text="Kazutora", url="https://github.com/Nchuuya"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),

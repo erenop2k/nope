@@ -25,7 +25,7 @@ group_start_text: |
   *Started active since :* `{}`
 
 pm_about_text: |
-  ✺ Hey Darling I'm *Shikimori Micchon*, a powerful group management bot built to help you manage your group easily. ✺(https://telegra.ph/file/8bddb266c82258ff0a41b.mp4)
+  ✺ Hey Darling I'm *Shikimori Micchon*, a powerful group management bot built to help you manage your group easily. ✺ (https://telegra.ph/file/8bddb266c82258ff0a41b.mp4)
 
   ✪ I can restrict users.
   ✪ I can greet users with customizable welcome messages and even set a group's rules.
@@ -34,8 +34,8 @@ pm_about_text: |
   ✪ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
   ✪ I check for admins' permissions before executing any command and more stuffs
 
-  _Boa licensed under the GNU General Public License v3.0_
-  Click on button bellow to get basic help for Boa Hancock Robot.
+  _Shikimori licensed under the GNU General Public License v3.0_
+  Click on button bellow to get basic help for Shikimori Micchon Robot.
 pm_about_admin_text: |
   *✺ Let's make your group bit effective now ✺*
 
@@ -252,7 +252,7 @@ blacklist_help: |
 chatbot_help: |
     ──「 Chatbot AI 」──
 
-    Boa Hancock AI is the only ai system which can detect & reply upto 200 language's
+    Shikimori Micchon AI is the only ai system which can detect & reply upto 200 language's
 
     ❂ /chatbot [ON/OFF]: Enables and disables AI Chat mode.
     ❂ /chatbot EN : Enables English only chatbot.
@@ -348,7 +348,7 @@ fsub_feds_help: |
 
     *Force Subscribe:*
 
-    Siesta can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
+    Shikimori can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 
     *Setup* *:* *Only creator*
     ❂ Add me in your group as admin
@@ -669,7 +669,7 @@ search_help: |
     ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
     ❂ Boa Hancock <query>*:* Siesta answers the query
 
-    💡 Ex : `Boa where is Japan?`
+    💡 Ex : `Shikimori where is Japan?`
 stickers_help: |
     ──「 Stickers 」──
 

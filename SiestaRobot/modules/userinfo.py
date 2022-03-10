@@ -450,7 +450,7 @@ def set_about_me(update: Update, context: CallbackContext):
 def stats(update: Update, context: CallbackContext):
     stats = "<b>╔═━「 Shikimori Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 By [Light Yagami](https://t.me/Itz_Light_Yagami) 」</b>"
+    result += "\n<b>╘═━「 By [Light Yagami](https://t.me/itz_light_yagami) 」</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 

@@ -20,7 +20,7 @@ def sigma(update: Update, context: CallbackContext):
     update.effective_message.reply_video(random.choice(truth_and_dare_string.SIGMA))
     
     
-    def gbam(update, context):
+def gbam(update, context):
     user = update.effective_user
     chat = update.effective_chat
     bot, args = context.bot, context.args
@@ -29,18 +29,18 @@ def sigma(update: Update, context: CallbackContext):
     curr_user = html.escape(message.from_user.first_name)
     user_id = extract_user(message, args)
 
-    if user_id:
+ if user_id:
         gbam_user = bot.get_chat(user_id)
         user1 = curr_user
         user2 = html.escape(gbam_user.first_name)
 
-    else:
+ else:
         user1 = curr_user
         user2 = bot.first_name
 
-    if update.effective_message.chat.type == "private":
+ if update.effective_message.chat.type == "private":
         return
-    if int(user.id) in DRAGONS or int(user.id) in DEMONS:
+ if int(user.id) in DRAGONS or int(user.id) in DEMONS:
         gbamm = fun.GBAM
         reason = random.choice(fun.GBAM_REASON)
         gbam = gbamm.format(user1=user1, user2=user2, chatid=chat.id, reason=reason)

@@ -29,15 +29,15 @@ def gbam(update, context):
     curr_user = html.escape(message.from_user.first_name)
     user_id = extract_user(message, args)
 
- if     
-        user_id:
-        gbam_user = bot.get_chat(user_id)
-        user1 = curr_user
-        user2 = html.escape(gbam_user.first_name)
+ if user_id:     
+    gbam_user = bot.get_chat(user_id)
+    user1 = curr_user
+    user2 = html.escape(gbam_user.first_name)
+       
 
  else:
-        user1 = curr_user
-        user2 = bot.first_name
+      user1 = curr_user
+      user2 = bot.first_name
 
  if update.effective_message.chat.type == "private":
         return

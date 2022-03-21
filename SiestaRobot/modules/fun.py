@@ -1,25 +1,16 @@
 import html
 import random
 import time
-import glob
-import requests
-import requests as r
-import urllib.request
-import os
 
 import SiestaRobot.modules.fun_strings as fun_strings
-
-from pyrogram import filters
-from pathlib import Path
-from SiestaRobot import DEMONS, DRAGONS, pgram as bot, dispatcher, BOT_USERNAME, BOT_NAME
-from SiestaRobot.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
+from SiestaRobot import dispatcher
+from SiestaRobot.modules.disable import DisableAbleCommandHandler
 from SiestaRobot.modules.helper_funcs.chat_status import is_user_admin
-from SiestaRobot.modules.helper_funcs.alternate import typing_action
 from SiestaRobot.modules.helper_funcs.extraction import extract_user
-from telegram import ChatPermissions, ParseMode, Update, Bot
+from SiestaRobot.modules.language import gs
+from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
-from telegram.ext import CallbackContext, run_async, Filters
-from telegram.utils.helpers import escape_markdown
+from telegram.ext import CallbackContext
 
 GIF_ID = "CgACAgQAAx0CSVUvGgAC7KpfWxMrgGyQs-GUUJgt-TSO8cOIDgACaAgAAlZD0VHT3Zynpr5nGxsE"
 

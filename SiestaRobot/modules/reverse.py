@@ -38,7 +38,7 @@ def reverse(update: Update, context: CallbackContext):
         elif reply.document:
             file_id = reply.document.file_id
         else:
-            msg.reply_text("Reply to an image or sticker to lookup.")
+            msg.reply_text("Baka!! Reply To An Image Or Sticker.")
             return
         image_file = bot.get_file(file_id)
         image_file.download(imagename)
@@ -68,11 +68,11 @@ def reverse(update: Update, context: CallbackContext):
             urllib.request.urlretrieve(img_link, imagename)
         except HTTPError as HE:
             if HE.reason == "Not Found":
-                msg.reply_text("Image not found.")
+                msg.reply_text("Gomen No Image Found.")
                 return
             if HE.reason == "Forbidden":
                 msg.reply_text(
-                    "Couldn't access the provided link, The website might have blocked accessing to the website by bot or the website does not existed."
+                    "Ehhhh I am not able to access the provided link, The website might have blocked accessing to the website by bot or the website does not existed, BRAAH."
                 )
                 return
         except URLError as UE:
@@ -83,7 +83,7 @@ def reverse(update: Update, context: CallbackContext):
             return
     else:
         msg.reply_markdown(
-            "Please reply to a sticker, or an image to search it!\nDo you know that you can search an image with a link too? `/reverse [picturelink] <amount>`."
+            "Baka!! reply to a sticker, or an image to search it!\nDo you know that you can search an image with a link too? `/reverse [picturelink] <amount>`."
         )
         return
 
@@ -205,7 +205,7 @@ def scam(imgspage, lim):
 
 
 REVERSE_HANDLER = DisableAbleCommandHandler(
-    ["reverse","grs","pp"], reverse, pass_args=True, admin_ok=True, run_async=True
+    ["reverse","grs","pp","pt"], reverse, pass_args=True, admin_ok=True, run_async=True
 )
 
 dispatcher.add_handler(REVERSE_HANDLER)

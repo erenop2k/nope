@@ -84,61 +84,61 @@ def gban(update: Update, context: CallbackContext):
 
     if not user_id:
         message.reply_text(
-            "You don't seem to be referring to a user or the ID specified is incorrect..",
+            "BRAHH!! You don't seem to be referring to a user or the ID specified is incorrect..",
         )
         return
 
     if int(user_id) in DEV_USERS:
         message.reply_text(
-            "That user is part of the Association\nI can't act against our own.",
+            "That user is my Oni_Chan\nI can't act against him gomen.",
         )
         return
 
     if int(user_id) in DRAGONS:
         message.reply_text(
-            "I spy, with my little eye... a disaster! Why are you guys turning on each other?",
+            "Dont waste my time turning on each other..... Kids with sudo these days",
         )
         return
 
     if int(user_id) in DEMONS:
         message.reply_text(
-            "OOOH someone's trying to gban a Demon Disaster! *grabs popcorn*",
+            "OOOH someone's trying to gban my seenpai! Ewwww stay awayy",
         )
         return
 
     if int(user_id) in TIGERS:
-        message.reply_text("That's a Tiger! They cannot be banned!")
+        message.reply_text("Oh god she's my best friend!! Why do you wanna ban her?")
         return
 
     if int(user_id) in WOLVES:
-        message.reply_text("That's a Wolf! They cannot be banned!")
+        message.reply_text("NO!! am not gonna ban my friend get some help bruh")
         return
 
     if user_id == bot.id:
-        message.reply_text("You uhh...want me to punch myself?")
+        message.reply_text("Baka!! why do you want me to kick my self!! Get awayy from mee hmp")
         return
 
     if user_id in [777000, 1087968824]:
-        message.reply_text("Fool! You can't attack Telegram's native tech!")
+        message.reply_text("Baka! You can't attack Telegram's native tech!")
         return
 
     try:
         user_chat = bot.get_chat(user_id)
     except BadRequest as excp:
         if excp.message == "User not found":
-            message.reply_text("I can't seem to find this user.")
+            message.reply_text("BRAHH!! I can't seem to find this user.")
             return ""
         return
 
     if user_chat.type != "private":
-        message.reply_text("That's not a user!")
+        message.reply_text("You blind? That's not a user!")
         return
 
     if sql.is_user_gbanned(user_id):
 
         if not reason:
             message.reply_text(
-                "This user is already gbanned; I'd change the reason, but you haven't given me one...",
+                "This user is already gbanned lol; I'd change the reason, but you haven't given me one...",
             )
             return
 
@@ -159,7 +159,7 @@ def gban(update: Update, context: CallbackContext):
 
         else:
             message.reply_text(
-                "This user is already gbanned, but had no reason set; I've gone and updated it!",
+                "This user is already gbanned XD, but had no reason set; I've gone and updated it!",
             )
 
         return
@@ -259,9 +259,9 @@ def gban(update: Update, context: CallbackContext):
 
     if gban_time > 60:
         gban_time = round((gban_time / 60), 2)
-        message.reply_text("Done! Gbanned.", parse_mode=ParseMode.HTML)
+        message.reply_text("Done! Gbanned XD.", parse_mode=ParseMode.HTML)
     else:
-        message.reply_text("Done! Gbanned.", parse_mode=ParseMode.HTML)
+        message.reply_text("Done! Gbanned XD.", parse_mode=ParseMode.HTML)
 
     try:
         bot.send_message(
@@ -298,7 +298,7 @@ def ungban(update: Update, context: CallbackContext):
         return
 
     if not sql.is_user_gbanned(user_id):
-        message.reply_text("This user is not gbanned!")
+        message.reply_text("This user is not gbanned lol you seriously are blind!")
         return
 
     message.reply_text(f"I'll give {user_chat.first_name} a second chance, globally.")
@@ -384,9 +384,9 @@ def ungban(update: Update, context: CallbackContext):
 
     if ungban_time > 60:
         ungban_time = round((ungban_time / 60), 2)
-        message.reply_text(f"Person has been un-gbanned. Took {ungban_time} min")
+        message.reply_text(f"Person has been un-gbanned enoung of dramas now. Took {ungban_time} min")
     else:
-        message.reply_text(f"Person has been un-gbanned. Took {ungban_time} sec")
+        message.reply_text(f"Person has been un-gbanned enoung of dramas now. Took {ungban_time} sec")
 
 
 @support_plus
@@ -395,7 +395,7 @@ def gbanlist(update: Update, context: CallbackContext):
 
     if not banned_users:
         update.effective_message.reply_text(
-            "There aren't any gbanned users! You're kinder than I expected...",
+            "OMG!! there aren't any gbanned users! You're kinder than I expected...LOL",
         )
         return
 

@@ -7,7 +7,7 @@ import requests as r
 import urllib.request
 import os
 
-import Flare_Robot.modules.fun_strings as fun_strings
+import SiestaRobot.modules.fun_strings as fun_strings
 
 from pyrogram import filters
 from pathlib import Path

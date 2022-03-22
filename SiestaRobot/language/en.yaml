@@ -12,10 +12,10 @@ pm_start_text: |
   *Hey Darling, {} ❤️*
   ♡ I'm Shikimori Micchon robot [✨](https://telegra.ph/file/8bddb266c82258ff0a41b.mp4)
 
-  ┏━━━━━━━•❃°•°❀°•°❃•━━━━━━━┓
+  ┏━━━━━━━•♡°•°♡°•°♡•━━━━━━━┓
   ×  *Server Uptime :* `{}`             
   ×  `{}` *users, across* `{}` *chats.*  
-  ┗━━━━━━━•❃°•°❀°•°❃•━━━━━━━┛
+  ┗━━━━━━━•♡°•°♡°•°♡•━━━━━━━┛
 
   ♡ Hit /help to see my available commands.
    
@@ -25,7 +25,7 @@ group_start_text: |
   *Started active since :* `{}`
 
 pm_about_text: |
-  ✺ Hey Darling I'm *Shikimori Micchon*, a powerful group management bot built to help you manage your group easily. ✺ 
+  ♥ Hey Darling I'm *Shikimori Micchon*, a powerful group management bot built to help you manage your group easily. ♥ 
 
   ♡ I can restrict users.
   ♡ I can greet users with customizable welcome messages and even set a group's rules.
@@ -37,7 +37,7 @@ pm_about_text: |
   _Shikimori licensed under the GNU General Public License v3.0_
   Click on button bellow to get basic help for Shikimori Micchon Robot.
 pm_about_admin_text: |
-  *✺ Let's make your group bit effective now ✺*
+  *♥ Let's make your group bit effective now ♥*
 
   Congragulations, Shikimori Micchon Robot now ready to manage your group.
 
@@ -49,20 +49,20 @@ pm_about_admin_text: |
   Lets set a welcome message to welcome new users coming to your group.
   Send `/setwelcome [message]` to set a welcome message!
 pm_about_notes_text: |
-  *✺ Setting up notes ✺*
+  *♥ Setting up notes ♥*
 
   ♡ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
   ♡ You can also set buttons for notes and filters (refer help menu)
 pm_about_support_text: |
-  *✺  Shikimori Micchon Robot support chats ✺*
+  *♥  Shikimori Micchon Robot support chats ♥*
 
   Join My Support Group/Channel for see or report a problem on Shikimori Support.
 pm_about_credit_text: |
-  *✺ Credis for Shikimori Micchon ✺*
+  *♥ Credis for Shikimori Micchon ♥*
 
   Here Developers Making And Give Inspiration For Made The Shikimori Robot
 pm_help_text: |
-  *✺ Click on the button bellow to get description about specifics command. ✺*
+  *♥ Click on the button bellow to get description about specifics command. ♥*
   
   If You Face Any Problems Please Report It To Our Support Group.
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
@@ -71,7 +71,7 @@ pm_help_module_text: "Here is the help for the *{}* module :\n\n"
 group_help_text: "Contact me in PM to get the list of possible commands."
 group_help_modules_text: "Contact me in PM to get help of *{}*"
 # Group Help Button
-group_help_button: "Help"
+group_help_button: "ʜᴇʟᴘ"
 # PM Settings
 pm_settings_personal_text: "These are your current settings: "
 pm_settings_group_text: "Which module would you like to check {}'s settings for?"

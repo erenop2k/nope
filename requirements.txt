@@ -86,10 +86,6 @@ pendulum
 fuzzysearch
 img2pdf
 multicolorcaptcha
-hentai --only-binary all
-natsort
-html-telegraph-poster
-NHentai-API
 git+https://github.com/python-telegram-bot/ptbcontrib.git
 git+https://github.com/TotallyNotChase/glitch-this.git
 pyYAML>=5.1.2

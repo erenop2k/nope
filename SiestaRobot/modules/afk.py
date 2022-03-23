@@ -7,27 +7,18 @@ from SiestaRobot.modules.disable import (
 )
 from SiestaRobot.modules.sql import afk_sql as sql
 from SiestaRobot.modules.users import get_user_id
-from SiestaRobot.modules.language import gs
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
-from telegram.ext import (
-    CallbackContext,
-    CallbackQueryHandler,
-    CommandHandler,
-    Filters,
-    MessageHandler,
-    run_async,
-)
+from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
 
 
+@run_async
 def afk(update: Update, context: CallbackContext):
     args = update.effective_message.text.split(None, 1)
     user = update.effective_user
-    chat = update.effective_chat
 
     if not user:  # ignore channels
         return
@@ -40,22 +31,22 @@ def afk(update: Update, context: CallbackContext):
         reason = args[1]
         if len(reason) > 100:
             reason = reason[:100]
-            notice = gs(chat.id, "reason_len")
+            notice = "\nYour afk reason was shortened to 100 characters."
     else:
         reason = ""
 
     sql.set_afk(update.effective_user.id, reason)
     fname = update.effective_user.first_name
     try:
-        update.effective_message.reply_text(text=gs(chat.id, "afk").format(fname, notice))
+        update.effective_message.reply_text("{} is now away!{}".format(fname, notice))
     except BadRequest:
         pass
 
 
+@run_async
 def no_longer_afk(update: Update, context: CallbackContext):
     user = update.effective_user
     message = update.effective_message
-    chat = update.effective_chat
 
     if not user:  # ignore channels
         return
@@ -67,14 +58,14 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                gs(chat.id, "afk_array1"),
-                gs(chat.id, "afk_array2"),
-                gs(chat.id, "afk_array3"),
-                gs(chat.id, "afk_array4"),
-                gs(chat.id, "afk_array5"),
-                gs(chat.id, "afk_array6"),
-                gs(chat.id, "afk_array7"),
-                gs(chat.id, "afk_array8"),
+                "{} is here! So what you've been doing all this time?",
+                "{} is back! Did you finished the work you wese doing?",
+                "{} is now in the chat! You should have deleted you account DUH",
+                "{} is awake! Wassappp!!!!",
+                "{} is back online! I thought tou were ded lol",
+                "{} is finally here! Were you jeking off!?",
+                "Welcome back! {}",
+                "Where is {}?\nIn the chat!",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(chosen_option.format(firstname))
@@ -82,6 +73,7 @@ def no_longer_afk(update: Update, context: CallbackContext):
             return
 
 
+@run_async
 def reply_afk(update: Update, context: CallbackContext):
     bot = context.bot
     message = update.effective_message
@@ -132,35 +124,34 @@ def reply_afk(update: Update, context: CallbackContext):
 
 
 def check_afk(update, context, user_id, fst_name, userc_id):
-    chat = update.effective_chat
-
     if sql.is_afk(user_id):
         user = sql.check_afk_status(user_id)
         if int(userc_id) == int(user_id):
             return
         if not user.reason:
-            res = gs(chat.id, "afk_check").format(fst_name)
+            res = "{} is afk".format(fst_name)
             update.effective_message.reply_text(res)
         else:
-            res = gs(chat.id, "afk_check_reason").format(
+            res = "{} is afk.\nReason: <code>{}</code>".format(
                 html.escape(fst_name), html.escape(user.reason)
             )
             update.effective_message.reply_text(res, parse_mode="html")
 
 
-AFK_HANDLER = DisableAbleCommandHandler("afk", afk, run_async=True)
+
+AFK_HANDLER = DisableAbleCommandHandler("afk", afk)
 AFK_REGEX_HANDLER = DisableAbleMessageHandler(
-    Filters.regex(r"^(?i)brb(.*)$"), afk, friendly="afk", run_async=True
+    Filters.regex(r"^(?i)brb(.*)$"), afk, friendly="afk"
 )
-NO_AFK_HANDLER = MessageHandler(Filters.all & Filters.chat_type.groups, no_longer_afk)
-AFK_REPLY_HANDLER = MessageHandler(Filters.all & Filters.chat_type.groups, reply_afk)
+NO_AFK_HANDLER = MessageHandler(Filters.all & Filters.group, no_longer_afk)
+AFK_REPLY_HANDLER = MessageHandler(Filters.all & Filters.group, reply_afk)
 
 dispatcher.add_handler(AFK_HANDLER, AFK_GROUP)
 dispatcher.add_handler(AFK_REGEX_HANDLER, AFK_GROUP)
 dispatcher.add_handler(NO_AFK_HANDLER, AFK_GROUP)
 dispatcher.add_handler(AFK_REPLY_HANDLER, AFK_REPLY_GROUP)
 
-__mod_name__ = "Afk​"
+__mod_name__ = "AFK"
 __command_list__ = ["afk"]
 __handlers__ = [
     (AFK_HANDLER, AFK_GROUP),

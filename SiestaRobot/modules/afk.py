@@ -59,11 +59,11 @@ def no_longer_afk(update: Update, context: CallbackContext):
         try:
             options = [
                 "{} is here! So what you've been doing all this time?",
-                "{} is back! Did you finished the work you were doing?",
+                "{} is back! Did you finish the work you were doing?",
                 "{} is now in the chat! You should have deleted you account DUH",
                 "{} is awake! Wassappp!!!!",
                 "{} is back online! I thought you were ded lol",
-                "{} is finally here! Were you jeking off!?",
+                "{} is finally here! Were you jerking off!?",
                 "Welcome back! {}",
                 "Where is {}?\nIn the chat!",
             ]

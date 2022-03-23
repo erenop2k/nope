@@ -62,7 +62,7 @@ def no_longer_afk(update: Update, context: CallbackContext):
                 "{} is back! Did you finished the work you wese doing?",
                 "{} is now in the chat! You should have deleted you account DUH",
                 "{} is awake! Wassappp!!!!",
-                "{} is back online! I thought tou were ded lol",
+                "{} is back online! I thought you were ded lol",
                 "{} is finally here! Were you jeking off!?",
                 "Welcome back! {}",
                 "Where is {}?\nIn the chat!",

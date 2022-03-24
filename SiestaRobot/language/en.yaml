@@ -65,8 +65,10 @@ pm_help_text: |
   *♥ Click on the button bellow to get description about specifics command. ♥*
   
   If You Face Any Problems Please Report It To Our Support Group.
-pm_help_module_text: "Here is the help for the *{}* module :\n\n"
-
+pm_help_module_text: |
+  [*♥ Click on the button bellow to get description about specifics command. ♥*
+  If You Face Any Problems Please Report It To Our Support Group.](https://t.me/jinwooXsupport) 
+  
 # Group Help Text
 group_help_text: "Contact me in PM to get the list of possible commands."
 group_help_modules_text: "Contact me in PM to get help of *{}*"

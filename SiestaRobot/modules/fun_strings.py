@@ -490,3 +490,58 @@ FLIRT_TEXT = (
     "I was wondering if you’re an artist because you were so good at drawing me in.",
     "Do you ever get tired from running through my thoughts all night?",
 )
+
+ROMANCE_GIFS = [
+    "CgACAgQAAxkBAAIQIWC0g6ovGy7YT-Y66XfpFVEKwTXKAAJ8AgACTu6sUN0m69FQv9tHHwQ",
+    "CgACAgQAAxkBAAIQImC0g62lTsbdQtBB5fY4tX5s9vP8AAJyAgACHdY1UTlYUpF2JAABcx8E",
+    "CgACAgQAAxkBAAIQI2C0g7nn-TRjwilr59dtctGb_cLlAAJ6AgACNkelUhxvFpZgDUbFHwQ",
+    "CgACAgQAAxkBAAIQJGC0g8L4cYfXRxE42YOTOcTCn8d9AAIoAgACqhGMUnPCWXH2RqPwHwQ",
+    "CgACAgQAAxkBAAIQJWC0g9GEFeRewmfL7Ei4ZaCdQ9p4AAIEAgAC_3xlUB5O5hIl3CbxHwQ",
+    "CgACAgQAAxkBAAIQJmC0g92L9jTq89JBieJCumwYCFPwAAIiAgAC1z2UUlOhsI6CxkHXHwQ"
+] 
+
+ROMANCE_STICKERS = [
+    "CAACAgQAAxkBAAIQM2C0hTjoZ6imrf90bzPD6RmGkl2ZAAJaLgAClGBOA7Ky9sn-fqeXHwQ",
+    "CAACAgQAAxkBAAIQNGC0hT2OqiTvCvXzONyRU8PfXejQAAJ1LgAClGBOA5yx5Lp5F-ILHwQ",
+    "CAACAgQAAxkBAAIQNWC0hT9jlDuleEyc_FOs9IBVmISYAAJ2LgAClGBOA5rDqeCOsXHNHwQ",
+    "CAACAgQAAxkBAAIQNmC0hUprZQ43ncln60H8tN2Df5Z2AAKILgAClGBOA28NiCHVy1AKHwQ",
+    "CAACAgQAAxkBAAIQN2C0hUu7-A7rehNrLRHCAxZVMTTnAAKHLgAClGBOA3wWNsqsCiN6HwQ"
+]
+
+ROMANCE_TEMPLATES = (
+    "I knew I’d never be able to remember what {user2} wore that day. But I also knew I’d never forget the way she looked.",
+    "So it’s not gonna be easy. It’s gonna be really hard. We’re gonna have to work at this every day, but I want to do that because I want you. I want all of you, forever, you and me, every day.",
+    "I wish I knew how to quit you.",
+    "Make me a radio and turn me up when you feel low.",
+    "I can't see anything that I don't like about you."
+)
+
+UWU_GIFS = [
+    "CgACAgQAAxkBAAIQQmC0hzeH3jUWqOpCnK383r-TPBwSAAJmAgACuciMUgfkgemP5m1zHwQ",
+    "CgACAgQAAxkBAAIQQ2C0h1RVQT1rES7mP86Ci2OWCx2YAAIiAgAC-eyUUhbqa8UgTgiKHwQ",
+    "CgACAgQAAxkBAAIQRGC0h3r70AsY6BHeCFx_YIdXPxe1AAJzAgAChzINUP7DYeBMExAbHwQ",
+    "CgACAgQAAxkBAAIQRWC0h4YyiN0QtB04fwQ9BrO5Dn8-AAJeAgACA0ZNUKg2nl7j2KgkHwQ",
+    "CgACAgQAAxkBAAIQRmC0h5Gu-nYhXpHBjX95wqhLdZ5VAAJZAgACo9KkUsO_TfexFnb0HwQ",
+    "CgACAgQAAxkBAAIQR2C0h5qEUDTz1IATJb3LaneMTvLJAAKUAgAC6V9FUGhbr491dDNRHwQ",
+    "CgACAgQAAxkBAAIQSGC0h6wLXwpfeZ_G2xdWiDLxfY1pAAJaAgACxh3NUJs2Ww3_ZJ_eHwQ",
+    "CgACAgQAAxkBAAIQSWC0h7aMqKriQQoFTwaqW3Apz2ZNAAIHAgACv7cNU8ooGtrchd2iHwQ"
+]
+
+UWU_STICKERS = [
+    "CAACAgUAAxkBAAIQdWC0moF88wE72wmUeaOLMc342mF4AAIUAwACk6CgVWhMjd9B5B1FHwQ",
+    "CAACAgUAAxkBAAIQeGC0mplxufMmOxW3UjkV92OjQFYxAAJMAwAC5ryoVZ68beJeQJcYHwQ",
+    "CAACAgUAAx0CS3FrwgABA7lJYN6trj9IFjVBUefGCf3XtAHB8GUAAs8DAAKT3NFVjFwwcs1XzRYgBA"
+]
+
+OWO_GIFS = [
+    "CgACAgQAAxkBAAIQWmC0iFdF7kgg7LY9mzNBekbqjhQcAAJmAgAC0BX9UsEPzw08-As7HwQ",
+    "CgACAgQAAxkBAAIQW2C0iHD-zQIMP-KaeuANN10dE6wkAAJDAgACTnelUjD2cJlQc7acHwQ",
+    "CgACAgQAAxkBAAIQXGC0iJiRiYcoGZV1iJ4ntAqwdTZPAAKxAgACxlEsUXBu3m2frBPlHwQ",
+    "CgACAgQAAxkBAAIQXWC0iMihZxq8Za0Wys0syRLQ68s_AAItAgACktbMUm7m-H24_ILTHwQ",
+    "CgACAgQAAxkBAAIQXmC0iRlW8csHLsoxPbUaMWW-5IudAAJsAgACbHesUJ68-FYsjr_xHwQ"
+]
+
+OWO_STICKERS = [
+    "CAACAgEAAx0CRf9PfgACElxgtJhw1QnFz6IIPzzOf4QJYI06OwAC5TIAA-cvCK5J8Qz_LoGKHwQ",
+    "CAACAgUAAxkBAAIQbGC0mik81vkrndPPJ7Vif9yuCdkjAAIOAgACiMGhVWgNT2REBs36HwQ"
+]

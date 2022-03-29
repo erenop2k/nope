@@ -545,3 +545,24 @@ OWO_STICKERS = [
     "CAACAgEAAx0CRf9PfgACElxgtJhw1QnFz6IIPzzOf4QJYI06OwAC5TIAA-cvCK5J8Qz_LoGKHwQ",
     "CAACAgUAAxkBAAIQbGC0mik81vkrndPPJ7Vif9yuCdkjAAIOAgACiMGhVWgNT2REBs36HwQ"
 ]
+
+SEX_TEXT = (
+    "Yamete...... yan=mete kudasaiii!!"
+    "Sleeping alone is a waste of my sexual talent, Lets sleep together and have some fun"
+    "Ahhhhh\n*cums*\n please be gentle senpai"
+    "So you really wanna have some naughty stuff with me right?"
+    "Yea sure I can treat you better, like anyone else 👄"
+    "You sure about that?|\nI mean am a bit shy you know"
+    "Can you really handle my pussy? 😏"
+    "No Sex for you sorry to say"
+    "Ok.... But be gentle please"
+    "ahhh.... not there... ahhhh..."
+    "Lmao, Do you even have a dick?"
+    "ahhh moto moto"
+    "Shutup small dick kid!! Go do your homework"
+)    
+    
+    
+    
+    
+    

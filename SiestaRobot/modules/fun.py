@@ -493,6 +493,8 @@ dispatcher.add_handler(ROMANCE_HANDLER)
 dispatcher.add_handler(EIGHTBALL_HANDLER)
 dispatcher.add_handler(TABLE_HANDLER)
 dispatcher.add_handler(GBAM_HANDLER)
+dispatcher.add_handler(OWO_HANDLER)
+dispatcher.add_handler(UWU_HANDLER)
 
 __mod_name__ = "Fun"
 __command_list__ = [
@@ -534,6 +536,8 @@ __handlers__ = [
     SHOUT_HANDLER,
     ROMANCE_HANDLER,
     WEEBIFY_HANDLER,
+    UWU_HANDLER,
+    OWO_HANDLER,
     EIGHTBALL_HANDLER,
     GBAM_HANDLER,
 ]

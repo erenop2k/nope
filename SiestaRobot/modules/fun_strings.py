@@ -481,12 +481,12 @@ FLIRT_TEXT = (
     "I was wondering if you could tell me: If you’re here, who’s running Heaven?",
     "No wonder the sky is gray tonight , cause all the color is in your eyes.",
     "You’ve got everything I’ve been searching for, and believe me—I’ve been looking a long time.",
-    "Do you have a map? I just got lost in your eyes."
-    "*Cough* *clear throat*\nAre you a guitar? Cuz I wanna grab your neck and listen to the noise u make while I'm playing with you\n*winks*"
-    "Are you an electrician? Because you’re definitely lighting up my day/night!"
-    "Are you Netflix? Cause I can look at you the whole day without getting boared"
-    "I’ve heard it said that kissing is the ‘language of love.’ Would you care to have a conversation with me about it sometime?"
-    "Oh you're single?\nI wonder why you're not on the Spotify hot singles list"
-    "I was wondering if you’re an artist because you were so good at drawing me in."
-    "Do you ever get tired from running through my thoughts all night?"
+    "Do you have a map? I just got lost in your eyes.",
+    "*Cough* *clear throat*\nAre you a guitar? Cuz I wanna grab your neck and listen to the noise u make while I'm playing with you\n*winks*",
+    "Are you an electrician? Because you’re definitely lighting up my day/night!",
+    "Are you Netflix? Cause I can look at you the whole day without getting boared",
+    "I’ve heard it said that kissing is the ‘language of love.’ Would you care to have a conversation with me about it sometime?",
+    "Oh you're single?\nI wonder why you're not on the Spotify hot singles list",
+    "I was wondering if you’re an artist because you were so good at drawing me in.",
+    "Do you ever get tired from running through my thoughts all night?",
 )

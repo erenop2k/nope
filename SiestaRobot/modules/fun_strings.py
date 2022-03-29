@@ -468,3 +468,25 @@ GBAM_REASON = (
     "sasti nibbi",
     "sasta camper",
 )
+
+FLIRT_TEXT = (
+    "I hope you know CPR, because you just took my breath away!",
+    "So, aside from taking my breath away, what do you do for a living?",
+    "I ought to complain to Spotify for you not being named this week’s hottest single.",
+    "Your eyes are like the ocean; I could swim in them all day.",
+    "When I look in your eyes, I see a very kind soul",
+    "If you were a vegetable, you’d be a ‘cute-cumber.’",
+    "Do you happen to have a Band-Aid? ‘Cause I scraped my knees falling for you.",
+    "I didn’t know what I wanted in a woman until I saw you.",
+    "I was wondering if you could tell me: If you’re here, who’s running Heaven?",
+    "No wonder the sky is gray tonight , cause all the color is in your eyes.",
+    "You’ve got everything I’ve been searching for, and believe me—I’ve been looking a long time.",
+    "Do you have a map? I just got lost in your eyes."
+    "*Cough* *clear throat*\nAre you a guitar? Cuz I wanna grab your neck and listen to the noise u make while I'm playing with you\n*winks*"
+    "Are you an electrician? Because you’re definitely lighting up my day/night!"
+    "Are you Netflix? Cause I can look at you the whole day without getting boared"
+    "I’ve heard it said that kissing is the ‘language of love.’ Would you care to have a conversation with me about it sometime?"
+    "Oh you're single?\nI wonder why you're not on the Spotify hot singles list"
+    "I was wondering if you’re an artist because you were so good at drawing me in."
+    "Do you ever get tired from running through my thoughts all night?"
+)

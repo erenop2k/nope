@@ -477,7 +477,7 @@ WEEBIFY_HANDLER = DisableAbleCommandHandler("weebify", weebify, run_async=True)
 GBAM_HANDLER = DisableAbleCommandHandler("gbam", gbam, run_async=True)
 ROMANCE_HANDLER = DisableAbleCommandHandler("romance", romance, run_async=True)
 OWO_HANDLER = DisableAbleCommandHandler("owo", owo, run_async=True)
-SEX_HANDLER = DisableAbleCommandHandler("SEX", SEX, run_async=True)
+SEX_HANDLER = DisableAbleCommandHandler("sex", sex, run_async=True)
 UWU_HANDLER = DisableAbleCommandHandler("uwu", uwu, run_async=True)
 
 dispatcher.add_handler(WEEBIFY_HANDLER)

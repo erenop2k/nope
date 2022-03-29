@@ -547,7 +547,7 @@ OWO_STICKERS = [
 ]
 
 SEX_TEXT = (
-    "Yamete...... yan=mete kudasaiii!!"
+    "Yamete...... yamete kudasaiii!!"
     "Sleeping alone is a waste of my sexual talent, Lets sleep together and have some fun"
     "Ahhhhh\n*cums*\n please be gentle senpai"
     "So you really wanna have some naughty stuff with me right?"
@@ -559,10 +559,5 @@ SEX_TEXT = (
     "ahhh.... not there... ahhhh..."
     "Lmao, Do you even have a dick?"
     "ahhh moto moto"
-    "Shutup small dick kid!! Go do your homework"
-)    
-    
-    
-    
-    
-    
+    "Shut-up small dick kid!! Go do your homework"
+)

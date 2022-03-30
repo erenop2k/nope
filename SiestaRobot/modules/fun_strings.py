@@ -517,14 +517,14 @@ ROMANCE_TEMPLATES = (
 )
 
 UWU_GIFS = [
-    "CgACAgQAAxkBAAIQQmC0hzeH3jUWqOpCnK383r-TPBwSAAJmAgACuciMUgfkgemP5m1zHwQ",
-    "CgACAgQAAxkBAAIQQ2C0h1RVQT1rES7mP86Ci2OWCx2YAAIiAgAC-eyUUhbqa8UgTgiKHwQ",
-    "CgACAgQAAxkBAAIQRGC0h3r70AsY6BHeCFx_YIdXPxe1AAJzAgAChzINUP7DYeBMExAbHwQ",
-    "CgACAgQAAxkBAAIQRWC0h4YyiN0QtB04fwQ9BrO5Dn8-AAJeAgACA0ZNUKg2nl7j2KgkHwQ",
-    "CgACAgQAAxkBAAIQRmC0h5Gu-nYhXpHBjX95wqhLdZ5VAAJZAgACo9KkUsO_TfexFnb0HwQ",
-    "CgACAgQAAxkBAAIQR2C0h5qEUDTz1IATJb3LaneMTvLJAAKUAgAC6V9FUGhbr491dDNRHwQ",
-    "CgACAgQAAxkBAAIQSGC0h6wLXwpfeZ_G2xdWiDLxfY1pAAJaAgACxh3NUJs2Ww3_ZJ_eHwQ",
-    "CgACAgQAAxkBAAIQSWC0h7aMqKriQQoFTwaqW3Apz2ZNAAIHAgACv7cNU8ooGtrchd2iHwQ"
+    "CgACAgQAAxkBAAIN4GJD65bk2RdnvbMLzqe7687ZYDNDAAIoAwACvqS0Uq90GlFhzjt4IwQ",
+    "CgACAgQAAxkBAAIN4WJD65406q4a0KdLA-RHS49d6siHAAIrAwACLkS1Uo0LJImx225UIwQ",
+    "CgACAgQAAxkBAAIN4mJD66dMG24D1eBUfKAfYrmQgZugAAL_AgACCJrFUknN7Zt8SjAkIwQ",
+    "CgACAgQAAxkBAAIN42JD67een8P09snrzvPZFm8MMVxSAALwAgACCCa9UoKU6Rzp31FJIwQ",
+    "CgACAgQAAxkBAAIN5GJD68X-1U2fU1l1HAcJZtgBCWd5AAL7AgAC1s-1UoZxIW386nZnIwQ",
+    "CgACAgQAAxkBAAIN5WJD69oQoI5hDU7Lz9ky7KXgn6k5AAL6AgACdh-8UkEfmSkVJgd7IwQ",
+    "CgACAgQAAxkBAAIN5mJD6-eiMllgeB3BAhL0Y-mruBZeAAILAwACrp-1Urt7B_vazoYxIwQ",
+    "CgACAgQAAxkBAAIN52JD7AIwj0Ev1RMzymO-LKtNj_0JAAJnAwACbDQcUkqXsKfdzZfTIwQ"
 ]
 
 UWU_STICKERS = [
@@ -534,11 +534,11 @@ UWU_STICKERS = [
 ]
 
 OWO_GIFS = [
-    "CgACAgQAAxkBAAIQWmC0iFdF7kgg7LY9mzNBekbqjhQcAAJmAgAC0BX9UsEPzw08-As7HwQ",
-    "CgACAgQAAxkBAAIQW2C0iHD-zQIMP-KaeuANN10dE6wkAAJDAgACTnelUjD2cJlQc7acHwQ",
-    "CgACAgQAAxkBAAIQXGC0iJiRiYcoGZV1iJ4ntAqwdTZPAAKxAgACxlEsUXBu3m2frBPlHwQ",
-    "CgACAgQAAxkBAAIQXWC0iMihZxq8Za0Wys0syRLQ68s_AAItAgACktbMUm7m-H24_ILTHwQ",
-    "CgACAgQAAxkBAAIQXmC0iRlW8csHLsoxPbUaMWW-5IudAAJsAgACbHesUJ68-FYsjr_xHwQ"
+    "CgACAgQAAx0CTrSSlQABDm2_YkPp8HL9wzeSCe8n3gWyKZJfJkAAAkYDAAJTvLxSRqXH9mrHH7ojBA",
+    "CgACAgQAAxkBAAIN1GJD6loSc-oFdNFVCabk1Lz53_s5AAL2AgACT_O9UrNCKSfX9CCqIwQ",
+    "CgACAgQAAxkBAAIN1WJD6lwsQ2unUCKUYm-EiHY4CEsWAALyAgACvHu9UkC2y7NU6gqvIwQ",
+    "CgACAgQAAxkBAAIN1mJD6l0mt1ndgT3wUfZbPNVI-hCsAAJLAwACXte8UiP4rSzNmu0YIwQ",
+    "CgACAgQAAxkBAAIN12JD6l0E3mXpbveK_11svwoRQvD5AALXAgACzU69UvlPyUAh-Lq0IwQ"
 ]
 
 OWO_STICKERS = [
@@ -547,17 +547,17 @@ OWO_STICKERS = [
 ]
 
 SEX_TEXT = (
-    "Yamete...... yamete kudasaiii!!"
-    "Sleeping alone is a waste of my sexual talent, Lets sleep together and have some fun"
-    "Ahhhhh\n*cums*\n please be gentle senpai"
-    "So you really wanna have some naughty stuff with me right?"
-    "Yea sure I can treat you better, like anyone else"
-    "You sure about that?|\nI mean am a bit shy you know"
-    "Can you really handle my pussy?"
-    "No Sex for you sorry to say"
-    "Ok.... But be gentle please"
-    "ahhh.... not there... ahhhh..."
-    "Lmao, Do you even have a dick?"
-    "ahhh moto moto"
+    "Yamete...... yamete kudasaiii!!",
+    "Sleeping alone is a waste of my sexual talent, Lets sleep together and have some fun",
+    "Ahhhhh\n*cums*\n please be gentle senpai",
+    "So you really wanna have some naughty stuff with me right?",
+    "Yea sure I can treat you better, like anyone else",
+    "You sure about that?|\nI mean am a bit shy you know",
+    "Can you really handle my pussy?",
+    "No Sex for you sorry to say",
+    "Ok.... But be gentle please",
+    "ahhh.... not there... ahhhh...",
+    "Lmao, Do you even have a dick?",
+    "ahhh moto moto ahhhh",
     "Shut-up small dick kid!! Go do your homework"
 )

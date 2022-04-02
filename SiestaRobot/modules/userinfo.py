@@ -304,7 +304,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Darling'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Oniichan'."
+        text += "\n\nThis user is member of 'Onii-Chan'."
         disaster_level_present = True
     elif user.id in DRAGONS:
         text += "\n\nThe Disaster level of this person is 'Sensei'."
@@ -313,13 +313,13 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Senpai'."
         disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\nThe Disaster level of this person is 'Bestfriend'."
+        text += "\n\nThe Disaster level of this person is 'Best Friend'."
         disaster_level_present = True
     elif user.id in WOLVES:
         text += "\n\nThe Disaster level of this person is 'Friend'."
         disaster_level_present = True
-    elif user.id == 1829047705:
-         text += "\n\nOwner Of A Bot. Queen Of @excrybaby. Bot Name Inspired From 'JoJo'."
+    elif user.id == 1492076351:
+         text += "\n\nOwner Of The Bot. Queen Of [Light Yagami♡ (夜神月♡)](http://t.me/Itz_Light_Yagami). Bot Name Inspired From 'Shikimori is not just a cutie'."
          disaster_level_present = True
 
     try:
@@ -350,6 +350,7 @@ def info(update: Update, context: CallbackContext):
             context.bot.send_photo(
                 chat.id,
                 photo=profile,
+                caption=(text),
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
@@ -363,7 +364,7 @@ def info(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.HTML,
             )
 
-            os.remove(f"{user.id}.png")
+            os.remove(f"{user.id}.jpg")
         # Incase user don't have profile pic, send normal text
         except IndexError:
             message.reply_text(
@@ -388,6 +389,7 @@ def info(update: Update, context: CallbackContext):
         )
 
     rep.delete()
+
 
 def about_me(update: Update, context: CallbackContext):
     bot, args = context.bot, context.args
@@ -466,10 +468,10 @@ def stats(update, context):
     try:
         update.effective_message.reply_text(
             status
-            + "\n*Shikimori statistics*:\n"
+            + "\n*Shikimori Statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/shikimoriXupdates)\n\n"
-            + "╘══「 by [Light Yagami](https://t.me/Itz_Light_Yagami) 」\n",
+            + f"\n\n[✦ Support](https://t.me/ShikimoriXsupport) | [✦ Updates](https://t.me/ShikimoriXupdates)\n\n"
+            + "╘══「 by [Light Yagami♡ (夜神月♡)](https://t.me/Itz_Light_yagami) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )
@@ -478,12 +480,12 @@ def stats(update, context):
             (
                 (
                     (
-                        "\n*Shikimori statistics*:\n"
+                        "\n*Shikimori Statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/ShikimoriXupdates)\n\n"
+                    + f"\n\n✦ [Support](https://t.me/ShikimoriXsupport) | ✦ [Updates](https://t.me/ShikimoriXupdates)\n\n"
                 )
-                + "╘══「 by [Light Yagami (夜神月)](https://github.com/Light-Sensei) 」\n"
+                + "╘══「 by [Light Yagami♡ (夜神月♡)](https://t.me/Itz_Light_yagami) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,

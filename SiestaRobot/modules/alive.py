@@ -15,7 +15,7 @@ PHOTO = "https://telegra.ph/file/9a4793707d1cdd1f9d6be.mp4"
 async def awake(event):
   TEXT = f"**Yo!! [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Micchon Shikimori.** \n\n"
   TEXT += "♡ **I'm Working Properly Baka!!** \n\n"
-  TEXT += f"♡ **My Darling : [Light Yagami (夜神月)](https://t.me/itz_light_yagami)** \n\n"
+  TEXT += f"♡ **My Darling : [Light Yagami♡ (夜神月♡)](https://t.me/itz_light_yagami)** \n\n"
   TEXT += f"♡ **Library Version :** `{telever}` \n\n"
   TEXT += f"♡ **Telethon Version :** `{tlhver}` \n\n"
   TEXT += f"♡ **Pyrogram Version :** `{pyrover}` \n\n"

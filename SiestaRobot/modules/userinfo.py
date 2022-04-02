@@ -471,7 +471,7 @@ def stats(update, context):
             + "\n*Shikimori Statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
             + f"\n\n[✦ Support](https://t.me/ShikimoriXsupport) | [✦ Updates](https://t.me/ShikimoriXupdates)\n\n"
-            + "╘══「 by [Light Yagami♡ (夜神月♡)](https://t.me/Itz_Light_yagami) 」\n",
+            + "╘══「 by [Light Yagami (夜神月)](https://t.me/Itz_Light_yagami) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )
@@ -485,7 +485,7 @@ def stats(update, context):
                     )
                     + f"\n\n✦ [Support](https://t.me/ShikimoriXsupport) | ✦ [Updates](https://t.me/ShikimoriXupdates)\n\n"
                 )
-                + "╘══「 by [Light Yagami♡ (夜神月♡)](https://t.me/Itz_Light_yagami) 」\n"
+                + "╘══「 by [Light Yagami (夜神月)](https://t.me/Itz_Light_yagami) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,

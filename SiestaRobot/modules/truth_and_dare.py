@@ -32,7 +32,7 @@ TRUTH_HANDLER = DisableAbleCommandHandler("truth", truth, run_async=True)
 DARE_HANDLER = DisableAbleCommandHandler("dare", dare, run_async=True)
 SIGMA_HANDLER = DisableAbleCommandHandler("sigma", sigma, run_async=True)
 COSPLAY_HANDLER = DisableAbleCommandHandler("cosplay", cosplay, run_async=True)
-COSPLAY_HANDLER = DisableAbleCommandHandler("rather", rather, run_async=True)
+RATHER_HANDLER = DisableAbleCommandHandler("rather", rather, run_async=True)
 
 
 

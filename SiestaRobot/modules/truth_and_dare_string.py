@@ -140,7 +140,7 @@ COSPLAY = (
 )
 RATHER = (
     "Would you rather\n🔴 only have meaningless one night stands or\n🔵 committed sexual relations with one person that cannot go past one year?",
-    "Would you rather\n🔴 preffer a fat ass or\n🔵 big boobs
+    "Would you rather\n🔴 preffer a fat ass or\n🔵 big boobs",
     "Would you rather\n🔴 give up sex for a year or\n🔵 give up masturbating for a year?",
     "Would you rather\n🔴 fuck your teacher or\n🔵 fuck your step mom",
     "Would you rather\n🔴 pick up the first stranger you see (male or female) and attempt to hookup or\n🔵 hookup with someone you always wanted to, but their married partner is in the army?",

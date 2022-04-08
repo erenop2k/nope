@@ -160,6 +160,7 @@ WAIFUS = (
     "https://telegra.ph/file/9d49c5b637f2a0badf965.jpg",
     "https://telegra.ph/file/06eae4e7f8a2b7ce55d3a.jpg",
     "https://telegra.ph/file/99473f1422d051feed25b.jpg",
+    "https://telegra.ph/file/2517d810ea112d5b4c42f.jpg"
 )
 
 

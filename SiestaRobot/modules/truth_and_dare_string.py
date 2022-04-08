@@ -150,6 +150,17 @@ RATHER = (
     "Would you rather\n🔴 be gay or\n🔵 a lesbo?",
     "Would you rather\n🔴 prefer Anime or\n🔵 Hollywood?",
 )    
-    
-    
+WAIFUS = ( 
+    "https://telegra.ph/file/78f76ef5470532311b38d.jpg",
+    "https://telegra.ph/file/b696743144ef674fe5a22.jpg",
+    "https://telegra.ph/file/4634f084799a612435a93.jpg",
+    "https://telegra.ph/file/5ed3565b9980c560badcb.jpg",
+    "https://telegra.ph/file/2f3c25492308cebf019ba.jpg",
+    "No waifus for you lmao\n shakal dekh le jake lode",
+    "https://telegra.ph/file/9d49c5b637f2a0badf965.jpg",
+    "https://telegra.ph/file/06eae4e7f8a2b7ce55d3a.jpg",
+    "https://telegra.ph/file/99473f1422d051feed25b.jpg",
+)
+
+
 

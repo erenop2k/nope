@@ -597,7 +597,7 @@ def makepack_internal(
                 "\n\n<b>Send /stickers to find sticker pack.</b>",
                 reply_markup=keyboard,
                 parse_mode=ParseMode.HTML,
-        )
+            )
     else:
         msg.reply_text("Failed to create sticker pack. Dont know why lmao.")
 

@@ -601,7 +601,7 @@ def makepack_internal(
             )
         
 
-    if success:
+    if succes:
                     edited_keyboard = InlineKeyboardMarkup(
                         [
                             [

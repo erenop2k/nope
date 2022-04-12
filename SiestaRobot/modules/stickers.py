@@ -597,7 +597,7 @@ def makepack_internal(
                         f"<b>Your sticker has been added!</b>"
                         f"\nEmoji Is : {sticker_emoji}",
                         reply_markup=edited_keyboard,
-                        parse_mode=ParseMode.HTML,,
+                        parse_mode=ParseMode.HTML,
             )
         return
 

@@ -495,14 +495,14 @@ def makepack_internal(
 
     except TelegramError as e:
         print(e)
-        if e.message == "Sticker set name is already occupied":
+        if e.message == "Lmao, sticker set name is already occupied":
             msg.reply_text(
                 "Your pack can be found [here](t.me/addstickers/%s)" % packname,
                 parse_mode=ParseMode.MARKDOWN,
             )
-        elif e.message in ("Peer_id_invalid", "bot was blocked by the user"):
+        elif e.message in ("Peer_id_invalid", "Why tf did you blocked me baka"):
             msg.reply_text(
-                "Contact me in PM first.",
+                "Bruh -_- atleast contact me in Pm.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
@@ -528,7 +528,7 @@ def makepack_internal(
             parse_mode=ParseMode.MARKDOWN,
         )
     else:
-        msg.reply_text("Failed to create sticker pack. Possibly due to blek mejik.")
+        msg.reply_text("Failed to create sticker pack. Dunno why lmao.")
 
 
 __help__ = """

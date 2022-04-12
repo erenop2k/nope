@@ -588,11 +588,11 @@ def makepack_internal(
                         [
                             [
                                 InlineKeyboardButton(
-                                    text="View Pack", url=f"t.me/addstickers/{packname}"
-                                )
-                            ]
-                        ]
-                    )
+                                    text="View Pack", url=f"t.me/addstickers/{packname}",
+                                ),
+                            ],
+                        ],
+                    ),
                     msg.reply_text(
                         f"<b>Your sticker has been added!</b>"
                         f"\nEmoji Is : {sticker_emoji}",
@@ -606,11 +606,11 @@ def makepack_internal(
                         [
                             [
                                 InlineKeyboardButton(
-                                    text="View Pack", url=f"t.me/addstickers/{packname}"
-                                )
-                            ]
-                        ]
-                    )
+                                    text="View Pack", url=f"t.me/addstickers/{packname}",
+                                ),
+                            ],
+                        ],
+                    ),
                     msg.reply_text(
                         f"<b>Your sticker has been added!</b>"
                         f"\nEmoji Is : {sticker_emoji}",

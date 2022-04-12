@@ -599,7 +599,7 @@ def makepack_internal(
                         reply_markup=edited_keyboard,
                         parse_mode=ParseMode.HTML,
             )
-        return
+        
 
     if success:
                     edited_keyboard = InlineKeyboardMarkup(

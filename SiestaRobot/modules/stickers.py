@@ -356,10 +356,20 @@ def kang(update: Update, context: CallbackContext):
                     webm_sticker=open("kangsticker.webm", "rb"),
                     emojis=sticker_emoji,
                 )
-                msg.reply_text(
-                    f"Sticker Successfully added to [pack](t.me/addstickers/{packname})"
-                    + f"\nEmoji is: {sticker_emoji}",
-                    parse_mode=ParseMode.MARKDOWN
+                    edited_keyboard = InlineKeyboardMarkup(
+                        [
+                            [
+                                InlineKeyboardButton(
+                                    text="View Pack", url=f"t.me/addstickers/{packname}"
+                                )
+                            ]
+                        ]
+                    )
+                    msg.reply_text(
+                        f"<b>Your sticker has been added!</b>"
+                        f"\nEmoji Is : {sticker_emoji}",
+                        reply_markup=edited_keyboard,
+                        parse_mode=ParseMode.HTML,
                 )
 
             except TelegramError as e:
@@ -378,10 +388,20 @@ def kang(update: Update, context: CallbackContext):
                     msg.reply_text("Invalid emoji(s)")
                 elif e.message == "Internal Server Error: sticker set not found (500)":
                     msg.reply_text(
-                        f"Sticker Successfully added to [pack](t.me/addsticker/{packname})",
-                        + "\n"
-                        f"Emoji is: {sticker_emoji}",
-                        parse_mode=ParseMode.MARKDOWN,
+                    edited_keyboard = InlineKeyboardMarkup(
+                        [
+                            [
+                                InlineKeyboardButton(
+                                    text="View Pack", url=f"t.me/addstickers/{packname}"
+                                )
+                            ]
+                        ]
+                    )
+                    msg.reply_text(
+                        f"<b>Your sticker has been added!</b>"
+                        f"\nEmoji Is : {sticker_emoji}",
+                        reply_markup=edited_keyboard,
+                        parse_mode=ParseMode.HTML,
                     )
 
     elif args:

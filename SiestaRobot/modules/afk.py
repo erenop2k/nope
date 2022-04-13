@@ -38,7 +38,7 @@ def afk(update: Update, context: CallbackContext):
     sql.set_afk(update.effective_user.id, reason)
     fname = update.effective_user.first_name
     try:
-        update.effective_message.reply_text("{} is now away! Sayonara!! {}".format(fname, notice))
+        update.effective_message.reply_text("{}-Kun is away now, sayonara!".format(fname, notice))
     except BadRequest:
         pass
 
@@ -58,15 +58,15 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "{} is here! So what you've been doing all this time?",
-                "{} is back! Did you finish the work you were doing?",
-                "{} is now in the chat! You should have deleted your account DUH",
-                "{} is awake! Wassappp!!!!",
-                "{} is back online! I thought you were ded lol",
-                "{} is finally here! Were you jerking off!?",
-                "Bish you're alive {} I thought you were ded jerking lolll",
-                "Welcome back! {}",
-                "Where is {}?\nIn the chat!",
+                "{} is here! So what you've been doing all this time?\nIts been {Count}",
+                "{} is back! Did you finish the work you were doing?\nIts been {Count}",
+                "{} is now in the chat! You should have deleted your account DUH\nIts been {Count} already",
+                "{} is awake! Wassapp!!!!\nYou were away for {Count}",
+                "{} is back online! I thought you were ded lol\n Anyways you were away for {Count}",
+                "{} is finally here!\nLmao you take {Count} to jerk off!?",
+                "Bish you're alive {} I thought you were ded jerking lolll for {Count}",
+                "Welcome back! {}\nYou were away for {Count}",
+                "Where is {}?\nIn the chat!\nYou were away for {Count}",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(chosen_option.format(firstname))

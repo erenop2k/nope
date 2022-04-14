@@ -1,3 +1,4 @@
+
 import random
 import time
 
@@ -5,10 +6,10 @@ from telegram import MessageEntity
 from telegram.error import BadRequest
 from telegram.ext import Filters, MessageHandler
 
-from SiestaRobot import REDIS, dispatcher
-from SiestaRobot.modules.disable import DisableAbleCommandHandler
-from SiestaRobot.modules.helper_funcs.readable_time import get_readable_time
-from SiestaRobot.modules.redis.afk_redis import (
+from YamatoRobot import REDIS, dispatcher
+from YamatoRobot.modules.disable import DisableAbleCommandHandler
+from YamatoRobot.modules.helper_funcs.readable_time import get_readable_time
+from YamatoRobot.modules.redis.afk_redis import (
     afk_reason,
     end_afk,
     is_user_afk,
@@ -34,7 +35,7 @@ def afk(update, context):
     REDIS.set(f"afk_time_{update.effective_user.id}", start_afk_time)
     fname = update.effective_user.first_name
     try:
-        update.effective_message.reply_text("{}-Kun is now away, sayonara!".format(fname))
+        update.effective_message.reply_text("{} is now Away!".format(fname))
     except BadRequest:
         pass
 
@@ -56,15 +57,17 @@ def no_longer_afk(update, context):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "{}-Kun is here! So what you've been doing all this time?",
-                "{}-Kun is back! Did you finish the work you were doing?",
-                "{}-Kun is now in the chat! You should have deleted your account DUH",
-                "{}-Kun is awake! Wassapp!!!!\nYou were away for {Count}",
-                "{}-Kun is back online! I thought you were ded lol",
-                "{}-Kun is finally here!\nLmao were you jerking off!?!?",
-                "Bish you're alive {}-Kun I thought you were ded jerking lolll",
-                "Welcome back! {}-Kun",
-                "Where is {}-Kun?\nIn the chat!",
+                "{} Is wasting his time in the chat!",
+                "The Dead {} Came Back From His Grave!",
+                "Welcome back {}! I hope you bought pizza",
+                "Good to hear from you again {}",
+                "{} Good job waking up now get ready for your classes!",
+                "Hey {}! Why weren't you online for such a long time?",
+                "{} why did you came back?",
+                "{} Is now back online!",
+                "OwO, Welcome back {}",
+                "Welcome to hell again {}",
+                "Whats poppin {}?",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(
@@ -119,13 +122,15 @@ def reply_afk(update, context):
                 fst_name = chat.first_name
 
             else:
-                return  
+                return
+
+
 check_afk(update, context, user_id, fst_name, userc_id)
 
-elif message.reply_to_message:
-     user_id = message.reply_to_message.from_user.id
-     fst_name = message.reply_to_message.from_user.first_name
-     check_afk(update, context, user_id, fst_name, userc_id)
+    elif message.reply_to_message:
+        user_id = message.reply_to_message.from_user.id
+        fst_name = message.reply_to_message.from_user.first_name
+        check_afk(update, context, user_id, fst_name, userc_id)
 
 
 def check_afk(update, context, user_id, fst_name, userc_id):
@@ -137,7 +142,7 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         if int(userc_id) == int(user_id):
             return
         if reason == "none":
-            res = "{}-Kun is not here rn!\nHe's out since: {} Ago.".format(fst_name, since_afk)
+            res = "{} is Dead!\nLast Liveliness: {} Ago.".format(fst_name, since_afk)
         else:
             res = "{} is afk!\nReason: {}\nLast seen: {} Ago.".format(
                 fst_name, reason, since_afk
@@ -177,4 +182,4 @@ AFK_REPLY_HANDLER = MessageHandler(
 dispatcher.add_handler(AFK_HANDLER, AFK_GROUP)
 dispatcher.add_handler(AFK_REGEX_HANDLER, AFK_GROUP)
 dispatcher.add_handler(NO_AFK_HANDLER, AFK_GROUP)
-dispatcher.add_handler(AFK_REPLY_HANDLER, AFK_REPLY_GROUP)    
+dispatcher.add_handler(AFK_REPLY_HANDLER, AFK_REPLY_GROUP)

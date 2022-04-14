@@ -6,10 +6,10 @@ from telegram import MessageEntity
 from telegram.error import BadRequest
 from telegram.ext import Filters, MessageHandler
 
-from YamatoRobot import REDIS, dispatcher
-from YamatoRobot.modules.disable import DisableAbleCommandHandler
-from YamatoRobot.modules.helper_funcs.readable_time import get_readable_time
-from YamatoRobot.modules.redis.afk_redis import (
+from SiestaRobot import REDIS, dispatcher
+from SiestaRobot.modules.disable import DisableAbleCommandHandler
+from SiestaRobot.modules.helper_funcs.readable_time import get_readable_time
+from SiestaRobot.modules.redis.afk_redis import (
     afk_reason,
     end_afk,
     is_user_afk,

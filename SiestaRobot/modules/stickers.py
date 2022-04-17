@@ -121,7 +121,7 @@ def kang(update: Update, context: CallbackContext):
             file_id = msg.reply_to_message.animation.file_id
             is_gif = True
         else:
-            msg.reply_text("Yea, I can't kang that.")
+            msg.reply_text("Bruh, I can't kang that dumass.")
 
         kang_file = context.bot.get_file(file_id)
         if not is_animated and not (is_video or is_gif):
@@ -139,7 +139,7 @@ def kang(update: Update, context: CallbackContext):
         elif msg.reply_to_message.sticker and msg.reply_to_message.sticker.emoji:
             sticker_emoji = msg.reply_to_message.sticker.emoji
         else:
-            sticker_emoji = "🃏"
+            sticker_emoji = "😃"
 
         if not is_animated and not (is_video or is_gif):
             try:
@@ -187,7 +187,7 @@ def kang(update: Update, context: CallbackContext):
                 )
 
             except OSError as e:
-                msg.reply_text("I can only kang images and gifs m8.")
+                msg.reply_text("I can only kang images and gifs.")
                 print(e)
                 return
 
@@ -391,7 +391,7 @@ def kang(update: Update, context: CallbackContext):
                 png_sticker = urlemoji[1]
                 sticker_emoji = urlemoji[2]
             except IndexError:
-                sticker_emoji = "🃏"
+                sticker_emoji = "😃"
             urllib.urlretrieve(png_sticker, kangsticker)
             im = Image.open(kangsticker)
             maxsize = (512, 512)
@@ -435,7 +435,7 @@ def kang(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.HTML,
             )
         except OSError as e:
-            msg.reply_text("I can only kang images m8.")
+            msg.reply_text("I can only kang images and gifs bruh.")
             print(e)
             return
         except TelegramError as e:
@@ -491,9 +491,9 @@ def kang(update: Update, context: CallbackContext):
             firstpackname = "a" + str(user.id) + "_by_" + context.bot.username
             for i in range(0, packnum + 1):
                 if i == 0:
-                    packs += f"[pack](t.me/addstickers/{firstpackname})\n"
+                    packs += f"Baka! reply to a sticker, or image or gif to kang it!\nOh, by the way. here are your packs:\n"
                 else:
-                    packs += f"[pack{i}](t.me/addstickers/{packname})\n"
+                    packs += f"Bruh! reply to a sticker, or image or gif to kang it!\nOh, by the way. here are your packs:\n"
         else:
             packs = f"t.me/addstickers/{packname}"
 

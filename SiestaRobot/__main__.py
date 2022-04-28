@@ -213,6 +213,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
+                            InlineKeyboardButton(text=gs(chat.id "darling_button"), url="t.me/Itz_Light_Yagami"),
                             InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/night_raiderss"),
                         ],
                         [
@@ -387,6 +388,7 @@ def siesta_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="siesta_support"),
+                        InlineKeyboardButton(text=gs(chat.id "darling_button"), url="t.me/Itz_Light_Yagami"),
                         InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="siesta_credit"),
                     ],
                     [
@@ -411,6 +413,7 @@ def siesta_about_callback(update, context):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
+                            InlineKeyboardButton(text=gs(chat.id "darling_button"), url="t.me/Itz_Light_Yagami"),
                             InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/night_raiderss"),
                         ],
                         [
@@ -522,6 +525,7 @@ def Source_about_callback(update, context):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
+                            InlineKeyboardButton(text=gs(chat.id "darling_button"), url="t.me/Itz_Light_Yagami"),
                             InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/night_raiderss"),
                         ],
                         [
@@ -813,7 +817,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**[Am alive now](https://telegra.ph/file/c1e3cced2a4cf3f4243a4.jpg)**""",
+                f"""**[Minna-San Am Alive Again](https://telegra.ph/file/c1e3cced2a4cf3f4243a4.jpg)**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:

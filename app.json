@@ -69,12 +69,12 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "siestaxbot"
+         "value": "shikimorixrobot"
       },
 
       "BOT_ID": {
          "description": "to get your bot_id using other bot or userbot",
-         "value": "8170834"
+         "value": "5130078117"
       },
 
       "OWNER_USERNAME": {

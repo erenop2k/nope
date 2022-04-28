@@ -213,7 +213,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
-                            InlineKeyboardButton(text=gs(chat.id "darling_button"), url="t.me/Itz_Light_Yagami"),
+                            InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="t.me/Itz_Light_Yagami"),
                             InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/night_raiderss"),
                         ],
                         [
@@ -388,7 +388,7 @@ def siesta_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="siesta_support"),
-                        InlineKeyboardButton(text=gs(chat.id "darling_button"), url="t.me/Itz_Light_Yagami"),
+                        InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="t.me/Itz_Light_Yagami"),
                         InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="siesta_credit"),
                     ],
                     [
@@ -413,7 +413,7 @@ def siesta_about_callback(update, context):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
-                            InlineKeyboardButton(text=gs(chat.id "darling_button"), url="t.me/Itz_Light_Yagami"),
+                            InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="t.me/Itz_Light_Yagami"),
                             InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/night_raiderss"),
                         ],
                         [
@@ -525,7 +525,7 @@ def Source_about_callback(update, context):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
-                            InlineKeyboardButton(text=gs(chat.id "darling_button"), url="t.me/Itz_Light_Yagami"),
+                            InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="t.me/Itz_Light_Yagami"),
                             InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/night_raiderss"),
                         ],
                         [

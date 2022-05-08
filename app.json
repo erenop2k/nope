@@ -134,7 +134,6 @@
       "ARQ_API": {
             "description": "Get this from @ARQRobot.",
             "required": true
-            "value": "NFHLJH-YSMGKI-XGRIBM-EAMIBE-ARQ"
       },
 
       "SPAMWATCH_API": {

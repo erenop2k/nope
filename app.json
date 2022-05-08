@@ -31,7 +31,7 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "5130078117:AAFHcD-KPRaupc4iWil9L6ulP6cuco0qfgw"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
@@ -51,7 +51,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "945137470"
+         "value": "1492076351"
      },
 
       "STRING_SESSION": {
@@ -61,7 +61,7 @@
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
-        "value": ""
+        "value": "cd0d9f86-bca7-4045-bf9a-358067765fc0"
       },
       "HEROKU_APP_NAME": {
         "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
@@ -134,6 +134,7 @@
       "ARQ_API": {
             "description": "Get this from @ARQRobot.",
             "required": true
+            "value": "NFHLJH-YSMGKI-XGRIBM-EAMIBE-ARQ"
       },
 
       "SPAMWATCH_API": {

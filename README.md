@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<a href="https://t.me/"> <img src="https://img.shields.io/badge/Sakurajima-Robot-magenta?style=for-the-badge&logo=github" alt="Ken Kaneki Github" /> </a>
+<a href="https://t.me/"> <img src="https://img.shields.io/badge/Shikimori-Robot-magenta?style=for-the-badge&logo=github" alt="Ken Kaneki Github" /> </a>
     
 <h2 align="center">
     
@@ -36,7 +36,7 @@
 </h2>    
 
 <p align="center">
-<a href="https://t.me/Millionaire_kambe"> <img src="https://img.shields.io/badge/Itachi-User-green?style=for-the-badge&logo=telegram" alt="Itachi on Telegram" /> </a>
+<a href="https://t.me/Itz_Light_yagami"> <img src="https://img.shields.io/badge/Light-User-green?style=for-the-badge&logo=telegram" alt="Light on Telegram" /> </a>
 <a href="https://t.me/JinWooXsupport"> <img src="https://img.shields.io/badge/Support-Chat-green?style=for-the-badge&logo=telegram" alt="Support Chat" /> </a>
 <a href="https://t.me/JinWooXupdate"> <img src="https://img.shields.io/badge/Update-Channel-green?style=for-the-badge&logo=telegram" alt="Update Channel" /> </a>
 </p>
@@ -48,6 +48,4 @@
 <p align="center">
 
 <a href="https://t.me/Itz_Light_Yagami"> <img src="https://img.shields.io/badge/Kira-Owner-purple?style=for-the-badge&logo=telegram" alt="Kira on Telegram" /> </a>
-<a href="https://t.me/bajioftoman "> <img src="https://img.shields.io/badge/Baji-Helper-orange?style=for-the-badge&logo=telegram" alt="Baji on Telegram" /> </a> 
-<a href="https://t.me/Heavenly_Blessed "> <img src="https://img.shields.io/badge/Oreki-Helper-orange?style=for-the-badge&logo=telegram" alt="Oreki on Telegram" /> </a>
-<a href="https://t.me/zerohisoka "> <img src="https://img.shields.io/badge/Kazutora-Helper-orange?style=for-the-badge&logo=telegram" alt="Kazutora on Telegram" /> 
+

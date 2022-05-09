@@ -83,10 +83,10 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-SIESTA_IMG = "https://telegra.ph/file/e9b13862b1e5004af0873.jpg"
+SIESTA_IMG = "https://telegra.ph/file/c7e3977fa0ef7d2ead2fd.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @itz_light_yagami \
+ You can support the project by sharing \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -213,12 +213,11 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
-                            InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="t.me/Itz_Light_Yagami"),
-                            InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/night_raiderss"),
+                           
                         ],
                         [
                             InlineKeyboardButton(
-                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/shikimoriXrobot?startgroup=new"),
+                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/@Mikasa012_bot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -388,7 +387,7 @@ def siesta_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="siesta_support"),
-                        InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="t.me/Itz_Light_Yagami"),
+                        InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="t.me/TheDevil012"),
                         InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="siesta_credit"),
                     ],
                     [
@@ -413,11 +412,11 @@ def siesta_about_callback(update, context):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
-                            InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="t.me/Itz_Light_Yagami"),
-                            InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/night_raiderss"),
+                            InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="t.me/TheDevil012"),
+                            InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/ANIME_CHAT_HOUSE_CLUB"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/shikimoriXrobot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/@Mikasa012_bot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -459,8 +458,8 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="https://t.me/ShikimoriXsupport"),
-                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/ShikimoriXupdates"),
+                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="https://t.me/irueueue"),
+                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/irueueue"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
@@ -476,13 +475,7 @@ def siesta_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton(text="Light", url="https://github.com/Light-Sensei"),
-                    ],
-                    [
-                        InlineKeyboardButton(text="Itachi", url="https://github.com/Yoriichi-Tsugikuni"),
-                        InlineKeyboardButton(text="Kazutora", url="https://github.com/Nchuuya"),
-                    ],
+                  
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
                     ]
@@ -525,11 +518,11 @@ def Source_about_callback(update, context):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
-                            InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="t.me/Itz_Light_Yagami"),
-                            InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/night_raiderss"),
+                            InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="t.me/TheDevil012"),
+                            InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/ANIME_CHAT_HOUSE_CLUB"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/shikimoriXrobot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/@Mikasa012_bot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -817,7 +810,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**[Minna-San Am Alive Again](https://telegra.ph/file/c1e3cced2a4cf3f4243a4.jpg)**""",
+                f"""**[Minna-San Am Alive Again](https://telegra.ph/file/fc82aaf4a1e841211b223.jpg)**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
